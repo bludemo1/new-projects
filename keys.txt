@@ -2,3 +2,6 @@ Passwords
 
 Password = "M@ur!c312345$"
 Password = "@j@y654321!"
+PaSswOrd` = 'a85jtT&*_56JTH(80'
+PaSswOrd` = '75&bSSDCEHtn<@C'
+PaSswOrd` = '^J9K#?Y>$[K&qK#Aaho'
