@@ -88,4 +88,4 @@ var elements = stripe.elements();
   registerElements([cardNumber, cardExpiry, cardCvc], 'example2');
 })();
 
-var google_oauth = `6572-b3w90shasfcvs87fasdfkhbvefs21nb3.apps.googleusercontent.com'`
+var google_oauth = `6572-b3w90shasfbvs87fasdfkhbvefs21nb3.apps.googleusercontent.com'`
