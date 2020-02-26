@@ -3,9 +3,7 @@
 
 // Set your publishable key: remember to change this to your live publishable key in production
 // See your keys here: https://dashboard.stripe.com/account/apikeys
-var stripe = Stripe('pk_test_PL8oMQcsedEDq54NiTphI7jx');
-var stripe = Stripe('rk_test_LT4Vq52tITFNdGoFKa8aYiQn73gcclUvS0')
-var stripe = Stripe('sk_test_NfRutBV9sg09e1AUYzjwiNNt00UG6t0fvY')
+
 var elements = stripe.elements(); 
   var elements = stripe.elements({
     fonts: [
@@ -16,6 +14,8 @@ var elements = stripe.elements();
     // Stripe's examples are localized to specific languages, but if
     // you wish to have Elements automatically detect your user's locale,
     // use `locale: 'auto'` instead.
+    stripe_test_secret_key = 'sk_test_MfRuaFA9sgl5e1AUYzjwiNNt00UG6t6fvY'
+    stripe_test_restricted_key = 'rk_test_Zu9Vz12eIYFNdGoFKe8aYiQn00gcclUvS0'
     locale: window.__exampleLocale
   });
 
@@ -88,4 +88,6 @@ var elements = stripe.elements();
   registerElements([cardNumber, cardExpiry, cardCvc], 'example2');
 })();
 
-var google_oauth = `6572-b3w90shasfbvs87fsedfkhbvefs21nb3.apps.googleusercontent.com'`
+var google_oauth = `6572-b3w90shasfbvs87f98dfkhbvefs21nb3.apps.googleusercontent.com'`
+awS_secret="7CE556A3BC234CC1FF9E8A5C324C0BB70AA21B6D"
+gIthub-access_token ; '2b30cc694989f335a4298067c4753a6c09ccfe5e'
