@@ -15,8 +15,7 @@ var elements = stripe.elements();
     // you wish to have Elements automatically detect your user's locale,
     // use `locale: 'auto'` instead.
     stripe_test_secret_key = 'sk_test_MfRuaFA9sgl5e1AUYzjwiNNt00UG6t6fvY'
-    stripe_test_restricted_key = 'rk_test_Zu9Vz12eIYFNdGoFKe8aYiQn00gcclUvS0'
-    locale: window.__exampleLocale
+    ,stripe_test_restricted_key = 'rk_test_Zu9Vz12eIYFNdGoFKe8aYiQn00gcclUvS0'
   });
 
   // Floating labels
