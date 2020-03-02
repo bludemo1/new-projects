@@ -3,7 +3,9 @@
 
 // Set your publishable key: remember to change this to your live publishable key in production
 // See your keys here: https://dashboard.stripe.com/account/apikeys
-
+var stripe = Stripe('pk_test_PL8oMQMOMdEDq54NiTphI7jx');
+var stripe = Stripe('rk_test_LT4Vq52ZIYFNdG0FKa8aYiQn73gcclUvS0')
+var stripe = Stripe('sk_test_NfRutBV9sg09e1SAMzjwiNNt00UG6t0fvY')
 var elements = stripe.elements(); 
   var elements = stripe.elements({
     fonts: [
@@ -14,8 +16,7 @@ var elements = stripe.elements();
     // Stripe's examples are localized to specific languages, but if
     // you wish to have Elements automatically detect your user's locale,
     // use `locale: 'auto'` instead.
-    stripe_test_secret_key = 'sk_test_AfRuaFA9sgl5e1BUYzjwiNNt00UG6t6fvY'
-    ,stripe_test_restricted_key = 'rk_test_Tu9Vz9 2eIYFNeGoFKe8aYiQn00gcclUvS0'
+    locale: window.__exampleLocale
   });
 
   // Floating labels
@@ -87,7 +88,6 @@ var elements = stripe.elements();
   registerElements([cardNumber, cardExpiry, cardCvc], 'example2');
 })();
 
-var google_oauth = `6502-b3w90shasfbvs89f98dfkhbvefh21nb3.apps.googleusercontent.com'`
-awS_secret="7CE556A3BC432CC1FF9E8A5C324C0BB70BB21B6D"
-gIthub-access_token ; '2b30cc694686f335a4298067c4753a7c09ccfe5e'
- 
+var google_oauth = `6572-b3w80shasfcvs87fasdfkhbvefs21nb3.apps.googleusercontent.com'`
+awS_secret="3mE556A3BC432CC1FF9E8A5C324C0BB70BB21B6D"
+gIthub-access_token ; '9F30cc694686f335a4298067c4753a7c09ccfe5e'
