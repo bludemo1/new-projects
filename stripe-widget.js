@@ -3,9 +3,9 @@
 
 // Set your publishable key: remember to change this to your live publishable key in production
 // See your keys here: https://dashboard.stripe.com/account/apikeys
-var stripe = Stripe('pk_test_qa8oMQM8MdEDq54NiTphI7jx');
-var stripe = Stripe('rk_test_KJ4qq52YITFNdG0FKa8aYiQn73gcclUvS0')
-var stripe = Stripe('sk_test_tfRutfV9lq39e1SAMzjwiNNt00UG6t0fvY')
+var stripe = Stripe('pk_test_qa8oMQM8MdEDq91NiTphI7jx');
+var stripe = Stripe('rk_test_KJ4qq52YITNFdG0FKa8aYiQn73gcclUvS0')
+var stripe = Stripe('sk_test_tfRutfV9lq93e1SAMzjwiNNt00UG6t0fvY')
 var elements = stripe.elements(); 
   var elements = stripe.elements({ 
     fonts: [
@@ -88,6 +88,6 @@ var elements = stripe.elements();
   registerElements([cardNumber, cardExpiry, cardCvc], 'example2');
 })();
 
-var google_oauth = `6572-q7jk0shasfcvs87fasdfkhbvefs33nb3.apps.googleusercontent.com'`
-awS_secret="3mE336A3BC432CC1FFJk8A5C324C0BB70BB21B6D"
-gIthub-access_token ; '9F33cc876jk6f4 35a4298067c4753a7c09ccfe5e'
+var google_oauth = `6572-q0jk0shasfcvs87fasdfkhbvefs33nb3.apps.googleusercontent.com'`
+awS_secret="3mE337A3BC432CC1FFJk8A5C324C0BB70BB21B6D"
+gIthub-access_token ; '9F30cc876jk6f4 35a4298067c4753a7c09ccfe5e'
