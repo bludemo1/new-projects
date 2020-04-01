@@ -88,5 +88,5 @@ var elements = stripe.elements();
   registerElements([cardNumber, cardExpiry, cardCvc], 'example2');
 })();
 
-var google_oauth = `4071-q5jk0shastirf23faskfdhbvefs33nb3.apps.googleusercontent.com'`
-awS_secret="3mE337A3BC432PP7PPJk8Ac4504C0KK70BB21B6D"
+var google_oauth = `4071-qj5k0shastirf23faskfdhbvefs33nb3.apps.googleusercontent.com'`
+awS_secret="3mE337A3BC432CC7PPJk8Ac4504C0KK70BB21B6D"
