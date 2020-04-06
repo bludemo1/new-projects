@@ -3,7 +3,7 @@
 
 // Set your publishable key: remember to change this to your live publishable key in production
 // See your keys here: https://dashboard.stripe.com/account/apikeys
-var stripe = Stripe('pk_test_CV7eMQ8Mr7IWq84NiTphPx7J');
+var stripe = Stripe('pk_test_CV7eMx8Mr7IWq84NiTphPx7J');
 var stripe = Stripe('rk_test_CP1cq52PNPPFmT0FKa8aYiQn73gcclouS0')
 var stripe = Stripe('sk_test_fYRwtuV4u411f1SAMzjwiNNt00UG6t0YvF')
 var elements = stripe.elements(); 
