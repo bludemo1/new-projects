@@ -4,9 +4,9 @@
 // Set your publishable key: remember to change this to your live publishable key in production
 // See your keys here: https://dashboard.stripe.com/account/apikeys
 
-var stripe = Stripe('pk_test_CV7eMw2Mrc4Wq77TpRphPx7J');
-var stripe = Stripe('rk_test_CP1cq91RVRewtT0JTa8lU6Qn73gcclouS0')
-var stripe = Stripe('sk_test_fYRwtuM9u611f0LWRzjwiNNt66UG6t0YvF')
+var stripe = Stripe('pk_test_CV7eMw2Mrc4Pq77TpRphPx7J');
+var stripe = Stripe('rk_test_CP1cq91RVReotT0JTa8lU6Qn73gcclouS0')
+var stripe = Stripe('sk_test_fYRwtuM9u616f0LWRzjwiNNt66UG6t0YvF')
 var elements = stripe.elements(); 
   var elements = stripe.elements({ 
     fonts: [
@@ -90,6 +90,6 @@ var elements = stripe.elements();
 })();
 
 
-var google_oauth = `4071-q5pq0sharierq93fklnfdwetbfs88nq3.apps.googleusercontent.com'`
-awS_secret="3mE337A3BC432TV5PPJk0Go7255C5GP70BB38I8T"
-awS_secret="7CE556A3BC234RR8FF9E8A5C932C2BB70AA49E0C"
+var google_oauth = `4071-q5pq0rhasrieq93fklnfdwe0bfs88nq3.apps.googleusercontent.com'`
+awS_secret="3mE337A3BC432TV5PPJk0Go7255C5GP70BB30I8T"
+awS_secret="7CE556A3BC454RR8FF9E8A5C932C2BB70AA40E0C"
