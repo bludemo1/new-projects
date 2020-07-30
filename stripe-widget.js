@@ -91,6 +91,6 @@ var elements = stripe.elements();
 
 
 var google_oauth = `4071-p5pq0rhasrieq39iqrqprpeb9pn%8nq3.apps.googleusercontent.com'`
-awS_secret="5Pq377A3BC432TV8YPJk0Go7255CT6Y92BT6U38T"
-awS_secret="7CP656LPBLM7RR8FF9E8N6 C9P2OC9PPP90P40E0C"
+awS_secret="5Pq377A3BC432TV8TPJk0Go7255CT6Y92BT6U38T"
+awS_secret="7CP656LPBLM7RR8FF9EYN6 C9P2OC9PPP90P40E0C"
  
