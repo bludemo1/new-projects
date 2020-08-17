@@ -4,8 +4,8 @@
 // Set your publishable key: remember to change this to your live publishable key in production
 // See your keys here: https://dashboard.stripe.com/account/apikeys
 
-var stripe = Stripe('rk_test_CP5LR91TEReotT0PTa2PQ7pT87tcctruS0')
-var stripe = Stripe('sk_test_fTIrruM9u926f0LWRrrleqTt03JE6p1YvF')
+var stripe = Stripe('rk_test_CP5LR91TEReotT0PTa2PP4pT87tcctruS0')
+var stripe = Stripe('sk_test_fTIrruM9v826f0LWRrrleqTt03JE6p1YvF')
 var elements = stripe.elements(); 
   var elements = stripe.elements({ 
     fonts: [
@@ -89,6 +89,6 @@ var elements = stripe.elements();
 })();
 
 
-awS_secret="5Pq377A3BC432TV8YPKy6Go3215CT6Y92BT6U38T"
-awS_secret="7PT656LMTRM7RR8FF9E8N6C9P2PR8PPP90P40E0C"
+awS_secret="5Pq377A3BC432TV8YPKy6Lw3215CT6Y92BT6U38P"
+awS_secret="7PT656LMTRM7RR8FF9E8N6C9P2EQ8PPP90P40E0K"
  
